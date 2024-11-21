@@ -73,6 +73,7 @@ header nav ul li a:hover {
 .skills {
     padding: 50px 20px;
     text-align: center;
+    background-color: cornflowerblue;
 }
 
 .skills h2 {
@@ -87,6 +88,36 @@ header nav ul li a:hover {
 }
 
 .skill-item {
+    padding: 20px;
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 10px;
+    width: 25%;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.projects h2 {
+    font-size: 1.5rem;
+}
+
+.projects img {
+    width: 100%;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projects-item {
     padding: 20px;
     background-color: blue;
     color: antiquewhite;
