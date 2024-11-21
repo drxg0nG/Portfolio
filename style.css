@@ -117,6 +117,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 }
 
+
 .projects-item {
     padding: 20px;
     background-color: blue;
@@ -124,3 +125,4 @@ header nav ul li a:hover {
     border-radius: 10px;
     width: 25%;
 }
+
