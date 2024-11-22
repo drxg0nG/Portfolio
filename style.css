@@ -76,7 +76,7 @@ header nav ul li a:hover {
     background-color: cornflowerblue;
 }
 
-.skills h2 {
+h2 {
     font-size: 1.5rem;
 }
 
@@ -126,3 +126,55 @@ header nav ul li a:hover {
     width: 25%;
 }
 
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: antiquewhite;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-item {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-item a {
+    color: #2dfb04;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+.contact-item a:hover {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.contact-form {
+    width: 45%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+}
